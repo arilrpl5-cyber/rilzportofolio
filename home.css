@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/ril.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 87vh; 
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    padding: 15px 40px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    box-sizing: border-box; 
+    z-index: 1000; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(235, 9, 9);
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(219, 11, 11);
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+
+.home{
+    text-align: left;
+    padding: 60px;
+    color: aliceblue;
+    max-width: 1200px; 
+    margin: 0 auto;
+    position: relative; 
+}
+
+.home span {
+    color: #ffffff;
+}
+
+.ArilStevenSitohang {
+    color: #29bccf;
+    margin-top: 100px; 
+    text-shadow: 0 0 10px rgba(0, 208, 255, 0.8), 0 0 20px rgba(255, 0, 0, 0.6);
+    font-style: normal;
+    font-size: 40px;
+    display: block;
+}
+
+.txt {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 60%; 
+}
+
+.skill {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #12d6cf;
+    border-radius: 8px;
+    color: #fffdfd;
+    text-shadow: 0 0 10px #ff0800;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.skill:hover {
+    background: rgba(18, 214, 207, 0.2);
+    box-shadow: 0 0 15px #12d6cf;
+}
+.css {
+     padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #12d6cf;
+    border-radius: 8px;
+    color: #fffdfd;
+    text-shadow: 0 0 10px #ff0800;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.css:hover {
+    background: rgba(18, 214, 207, 0.2);
+    box-shadow: 0 0 15px #12d6cf;
+}
+.HTML {
+     padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #12d6cf;
+    border-radius: 8px;
+    color: #fffdfd;
+    text-shadow: 0 0 10px #ff0800;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.HTML:hover {
+    background: rgba(18, 214, 207, 0.2);
+    box-shadow: 0 0 15px #12d6cf;
+}
+
+.js {
+     padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #12d6cf;
+    border-radius: 8px;
+    color: #fffdfd;
+    text-shadow: 0 0 10px #ff0800;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.js:hover {
+    background: rgba(18, 214, 207, 0.2);
+    box-shadow: 0 0 15px #12d6cf;
+}
+.gdd {
+     padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #12d6cf;
+    border-radius: 8px;
+    color: #fffdfd;
+    text-shadow: 0 0 10px #ff0800;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.gdd:hover {
+    background: rgba(18, 214, 207, 0.2);
+    box-shadow: 0 0 15px #12d6cf;
+}
+
+
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00ffff;
+    
+   
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    
+   
+    margin-top: 140px; 
+    margin-right: 70px;
+}
+
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 60px;
+}
+.content-wrapper {
+    width: 60%;
+}

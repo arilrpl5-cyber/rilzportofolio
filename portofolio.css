@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/ex.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #0a0a0a;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    padding: 15px 40px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    box-sizing: border-box; 
+    z-index: 1000; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(235, 9, 9);
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(219, 11, 11);
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 40px 100px;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+}
+
+.project-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+
+
